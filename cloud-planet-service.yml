@@ -7,6 +7,8 @@ eureka:
 
 spring:
   profiles: dev
+
+api:
   title: Planet Service
   description: Cloud Planet Service 
   version: 1.0.0-BETA
