@@ -1,0 +1,16 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+
+---
+
+spring:
+  profiles: dev
+  title: Planet Service
+  description: Cloud Planet Service 
+  version: 1.0.0-BETA
+  contact_name: Jose Oliveros
+  contact_url: https://trycore.co/
+  contact_email: jomiol91@gmail.com
+  base_package: com.cloud.planet.rest.controller
